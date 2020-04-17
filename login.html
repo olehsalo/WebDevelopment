@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Not another cooking site</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html"><span class="fa fa-info"></span> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./add.html"><span class="fa fa-plus-circle"></span> Add Recipe</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-user"></span> Log in</a></li>
+                <li class="nav-item"><a class="nav-link" href="./register.html"><span class="fa fa-fax"></span> Sign up </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container container-wrapper">
+    <div class = "row row-page-header">
+        <div class="col-12 align-self-center ">
+            <div class="text-center">
+                <h1>Log in</h1>
+            </div>
+        </div>
+    </div>
+    <div class = "row ">
+        <div class="col-sm-6 align-self-center ">
+            <div class="text-center">
+                <img src="images/icon.png" class="img-fluid" alt="login-icon"  height="350" width="350" >
+            </div>
+        </div>
+        <div class="col-sm-6 align-self-center">
+            <form>
+                <div class="form-group row">
+                    <div class=" col-md-8 ">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class=" col-md-8">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class=" col-md-10">
+                        <button type="submit" class="btn btn-success">Log in</button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class=" col-md-10">
+                        <a href="./register.html">Create your account &#x27A1; </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright 2020 University project by Oleh Salo</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/tether/dist/js/tether.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

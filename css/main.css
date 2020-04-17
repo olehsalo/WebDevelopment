@@ -1,0 +1,41 @@
+.row-page-header {
+  background-color: #E5E5E5;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 25px; }
+
+.row-header {
+  margin: 0 auto;
+  padding: 0; }
+
+.text-center {
+  padding: 50px 0 50px 0; }
+
+.footer {
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 20px 0 20px 0; }
+
+.jumbotron {
+  padding: 30px 30px 70px 30px;
+  margin: 0 auto;
+  background: transparent;
+  color: #FFFAF0; }
+
+body {
+  background-image: linear-gradient(to right, #FF6347, #DC143C);
+  padding: 150px 0 0 0;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #1FCC44; }
+
+.container-wrapper {
+  background-color: #FFFAF0;
+  border-radius: 50px;
+  padding: 25px 25px 25px 25px; }
+
+a {
+  text-decoration: none;
+  color: #1FCC44;
+  font-weight: bold; }
